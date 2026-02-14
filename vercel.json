@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/create-transaction", "destination": "/api/index.js" },
+    { "source": "/(.*)", "destination": "/public/$1" }
+  ]
+}
